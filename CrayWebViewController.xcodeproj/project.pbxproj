@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C0161772D9A5DE8E4A58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C2F394876B4FBE1CF4EC /* XCTest.framework */; };
+		17B5C1BD8D663B5F528EB383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C533204305911CA6BA24 /* AppDelegate.m */; };
+		17B5C2072EF4ABEAC6EAB92F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C359340EABF8DB1EA65A /* MasterViewController.m */; };
+		17B5C2CF000DDF11D3203FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C88D96921E16A2EF4BB1 /* Main.storyboard */; };
+		17B5C4A0236B9B6BFC8DABE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C752452BEF2D06BE155F /* UIKit.framework */; };
+		17B5C529E11D4857EF924B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
+		17B5C5F4F3EE30435CE97340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */; };
+		17B5C662884E3CE8878B3D64 /* CrayTabWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */; };
+		17B5C6EBF8459603AAE3BBB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C397093E8130E18EA444 /* InfoPlist.strings */; };
+		17B5CA5D5FF2BD703104F08E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CCC290DB763E85462E71 /* InfoPlist.strings */; };
+		17B5CA7BC5DD269C47C50D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6865F64C934723AD1AE /* main.m */; };
+		17B5CAFD1F8A6A7C30B4FC88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1A35F4C797EC3896044 /* Images.xcassets */; };
+		17B5CC7F75DB2BDFA9D25FF6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF7A077B8A3A84627857 /* DetailViewController.m */; };
+		17B5CC8344549DDC3948C25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
+		17B5CDB7ADA50F0F3C5A0A35 /* CrayWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */; };
+		17B5CE95873F4F1E9D7AE2E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C752452BEF2D06BE155F /* UIKit.framework */; };
+		E15E292ACAE04B5DBC523AB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B9B40FCA414482B29A709A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C721C16B1A20D4727CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C1CF27316B14115A2DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C2F17069A3F13FDC8FA2;
+			remoteInfo = CrayWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B9B40FCA414482B29A709A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C00A8F0243194B9721AF /* CrayWebViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CrayWebViewController-Info.plist"; sourceTree = "<group>"; };
+		17B5C1A35F4C797EC3896044 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17B5C20DBCF528EEF97D54FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B5C276F1D3EDB1E76F4CEC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		17B5C2F394876B4FBE1CF4EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5C359340EABF8DB1EA65A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		17B5C4419B2D65403984BB60 /* CrayTabWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayTabWebViewController.h; sourceTree = "<group>"; };
+		17B5C4934AF929398D0EDF26 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		17B5C5194953944D7976F751 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		17B5C533204305911CA6BA24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5C5E752DA7F064116E2A4 /* CrayWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrayWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C6865F64C934723AD1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5C71908EE66598EFA9DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C752452BEF2D06BE155F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C790D5F0EF312A972C2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C988A456AD6BC6971D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5CB54A5BCED60E392E7B1 /* CrayWebViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CrayWebViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		17B5CC658121E83C4CE5525F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CC752EE6D1B0C2991E92 /* CrayWebViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrayWebViewController-Prefix.pch"; sourceTree = "<group>"; };
+		17B5CD8852E183EFF0A22DA5 /* CrayWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrayWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrayWebViewControllerTests.m; sourceTree = "<group>"; };
+		17B5CF7A077B8A3A84627857 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayTabWebViewController.m; sourceTree = "<group>"; };
+		B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C6B02F9ADB4A27242F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C0161772D9A5DE8E4A58 /* XCTest.framework in Frameworks */,
+				17B5CC8344549DDC3948C25E /* Foundation.framework in Frameworks */,
+				17B5CE95873F4F1E9D7AE2E0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CA9EF437644FF6586BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C529E11D4857EF924B2C /* Foundation.framework in Frameworks */,
+				17B5C5F4F3EE30435CE97340 /* CoreGraphics.framework in Frameworks */,
+				17B5C4A0236B9B6BFC8DABE0 /* UIKit.framework in Frameworks */,
+				E15E292ACAE04B5DBC523AB5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C0DB89A051CC7E1CD64D /* CrayWebViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C3476E3701CDB0F78158 /* Supporting Files */,
+				17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */,
+			);
+			path = CrayWebViewControllerTests;
+			sourceTree = "<group>";
+		};
+		17B5C3476E3701CDB0F78158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB54A5BCED60E392E7B1 /* CrayWebViewControllerTests-Info.plist */,
+				17B5C397093E8130E18EA444 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C4C203F0402103B4F420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C00A8F0243194B9721AF /* CrayWebViewController-Info.plist */,
+				17B5CCC290DB763E85462E71 /* InfoPlist.strings */,
+				17B5C6865F64C934723AD1AE /* main.m */,
+				17B5CC752EE6D1B0C2991E92 /* CrayWebViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C5E59B34D490E40F997F /* CrayWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C4C203F0402103B4F420 /* Supporting Files */,
+				17B5C71908EE66598EFA9DFA /* AppDelegate.h */,
+				17B5C533204305911CA6BA24 /* AppDelegate.m */,
+				17B5C1A35F4C797EC3896044 /* Images.xcassets */,
+				17B5C88D96921E16A2EF4BB1 /* Main.storyboard */,
+				17B5C5194953944D7976F751 /* MasterViewController.h */,
+				17B5C359340EABF8DB1EA65A /* MasterViewController.m */,
+				17B5C276F1D3EDB1E76F4CEC /* DetailViewController.h */,
+				17B5CF7A077B8A3A84627857 /* DetailViewController.m */,
+			);
+			path = CrayWebViewController;
+			sourceTree = "<group>";
+		};
+		17B5C8B02C1A20657A5523C8 = {
+			isa = PBXGroup;
+			children = (
+				17B5CC4DB0FECDAA73BAD368 /* Products */,
+				17B5CA911116E0BA27295BC2 /* Frameworks */,
+				17B5C5E59B34D490E40F997F /* CrayWebViewController */,
+				17B5C0DB89A051CC7E1CD64D /* CrayWebViewControllerTests */,
+				17B5C4934AF929398D0EDF26 /* Podfile */,
+				B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */,
+				17B5CC9CA2FF60BEDEED9BED /* Lib */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5CA911116E0BA27295BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C988A456AD6BC6971D98 /* Foundation.framework */,
+				17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */,
+				17B5C752452BEF2D06BE155F /* UIKit.framework */,
+				17B5C2F394876B4FBE1CF4EC /* XCTest.framework */,
+				07B9B40FCA414482B29A709A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CC4DB0FECDAA73BAD368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C5E752DA7F064116E2A4 /* CrayWebViewController.app */,
+				17B5CD8852E183EFF0A22DA5 /* CrayWebViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CC9CA2FF60BEDEED9BED /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CE0D460BCC64A817A8D4 /* CrayTabWebViewController */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		17B5CE0D460BCC64A817A8D4 /* CrayTabWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C4419B2D65403984BB60 /* CrayTabWebViewController.h */,
+				17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */,
+			);
+			path = CrayTabWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C2F17069A3F13FDC8FA2 /* CrayWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C45140B38FA8AAC26D7E /* Build configuration list for PBXNativeTarget "CrayWebViewController" */;
+			buildPhases = (
+				94738BBAF4B7468D9E9DCCF9 /* Check Pods Manifest.lock */,
+				17B5CC75FBDA3C3CE0175E4D /* Sources */,
+				17B5CA9EF437644FF6586BF8 /* Frameworks */,
+				17B5C154AE3D2D9F03507C51 /* Resources */,
+				2A0ADFE39585455395B4AFC5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrayWebViewController;
+			productName = CrayWebViewController;
+			productReference = 17B5C5E752DA7F064116E2A4 /* CrayWebViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B5C70BE1EBDFCFA5CEB01E /* CrayWebViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C86616866BC4AC352A40 /* Build configuration list for PBXNativeTarget "CrayWebViewControllerTests" */;
+			buildPhases = (
+				17B5C066A9F4B9B91E876EB7 /* Sources */,
+				17B5C6B02F9ADB4A27242F6C /* Frameworks */,
+				17B5C161076A8E3ABF3207FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5C2FC4ECAFDAA90F46151 /* PBXTargetDependency */,
+			);
+			name = CrayWebViewControllerTests;
+			productName = CrayWebViewControllerTests;
+			productReference = 17B5CD8852E183EFF0A22DA5 /* CrayWebViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C1CF27316B14115A2DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5CB3B6D0CF1F4DF326CD3 /* Build configuration list for PBXProject "CrayWebViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C8B02C1A20657A5523C8;
+			productRefGroup = 17B5CC4DB0FECDAA73BAD368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C2F17069A3F13FDC8FA2 /* CrayWebViewController */,
+				17B5C70BE1EBDFCFA5CEB01E /* CrayWebViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C154AE3D2D9F03507C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CA5D5FF2BD703104F08E /* InfoPlist.strings in Resources */,
+				17B5CAFD1F8A6A7C30B4FC88 /* Images.xcassets in Resources */,
+				17B5C2CF000DDF11D3203FF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C161076A8E3ABF3207FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C6EBF8459603AAE3BBB0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A0ADFE39585455395B4AFC5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94738BBAF4B7468D9E9DCCF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C066A9F4B9B91E876EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CDB7ADA50F0F3C5A0A35 /* CrayWebViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CC75FBDA3C3CE0175E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CA7BC5DD269C47C50D2F /* main.m in Sources */,
+				17B5C1BD8D663B5F528EB383 /* AppDelegate.m in Sources */,
+				17B5C2072EF4ABEAC6EAB92F /* MasterViewController.m in Sources */,
+				17B5CC7F75DB2BDFA9D25FF6 /* DetailViewController.m in Sources */,
+				17B5C662884E3CE8878B3D64 /* CrayTabWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5C2FC4ECAFDAA90F46151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C2F17069A3F13FDC8FA2 /* CrayWebViewController */;
+			targetProxy = 17B5C721C16B1A20D4727CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C397093E8130E18EA444 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CC658121E83C4CE5525F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C88D96921E16A2EF4BB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C20DBCF528EEF97D54FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17B5CCC290DB763E85462E71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C790D5F0EF312A972C2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C0FF30CD9FEAD3803583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrayWebViewController/CrayWebViewController-Prefix.pch";
+				INFOPLIST_FILE = "CrayWebViewControllerTests/CrayWebViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5C1267CBBAD6168AAC229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C705F80CFCC1C70A31E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrayWebViewController/CrayWebViewController-Prefix.pch";
+				INFOPLIST_FILE = "CrayWebViewController/CrayWebViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5C8073A2109DB2DB8DA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5CE988BBEE98D3D440D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrayWebViewController/CrayWebViewController-Prefix.pch";
+				INFOPLIST_FILE = "CrayWebViewController/CrayWebViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5CF49C2ECABE7D0BA6112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrayWebViewController/CrayWebViewController-Prefix.pch";
+				INFOPLIST_FILE = "CrayWebViewControllerTests/CrayWebViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C45140B38FA8AAC26D7E /* Build configuration list for PBXNativeTarget "CrayWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C705F80CFCC1C70A31E3 /* Release */,
+				17B5CE988BBEE98D3D440D14 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C86616866BC4AC352A40 /* Build configuration list for PBXNativeTarget "CrayWebViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C0FF30CD9FEAD3803583 /* Release */,
+				17B5CF49C2ECABE7D0BA6112 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CB3B6D0CF1F4DF326CD3 /* Build configuration list for PBXProject "CrayWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C1267CBBAD6168AAC229 /* Release */,
+				17B5C8073A2109DB2DB8DA95 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C1CF27316B14115A2DBE /* Project object */;
+}

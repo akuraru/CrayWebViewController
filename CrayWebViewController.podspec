@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
       :file => "LICENSE"
   }
   s.author       = {"azu" => "info@efcl.info"}
-  s.platform     = :ios,'6.0'
+  s.platform     = :ios, '6.0'
   s.source       = {
       :git => "https://github.com/azu/CrayWebViewController.git",
       :tag => s.version.to_s
   }
   s.source_files = "Lib/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency "NJKWebViewProgress"
+  s.dependency "NJKWebViewProgress", "TUSafariActivity"
 end

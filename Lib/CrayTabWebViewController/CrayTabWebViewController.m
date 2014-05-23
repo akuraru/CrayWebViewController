@@ -77,6 +77,11 @@
     [super viewWillDisappear:animated];
     [self.progressView removeFromSuperview];
 }
+
+- (void)viewDidAppear:(BOOL) animated {
+    [super viewDidAppear:animated];
+}
+
 #pragma mark - NJKWebViewProgressDelegate
 - (void)webViewProgress:(NJKWebViewProgress *) webViewProgress updateProgress:(float) progress {
     [self.progressView setProgress:progress animated:YES];

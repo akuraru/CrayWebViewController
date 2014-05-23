@@ -4,11 +4,14 @@ PODS:
     - NJKWebViewProgress/ProgressView
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
+  - TUSafariActivity (1.0.0)
 
 DEPENDENCIES:
   - NJKWebViewProgress
+  - TUSafariActivity
 
 SPEC CHECKSUMS:
-  NJKWebViewProgress: 2e7a17adf394a54b0203f544b354c2f1022eb651
+  NJKWebViewProgress: 721b57080c840c76f70ff6c2dda4f836ee1b27c1
+  TUSafariActivity: bd9da588f5f9136ba445d89f8f86b6dccf4d46ba
 
 COCOAPODS: 0.32.1

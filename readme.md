@@ -14,14 +14,27 @@ pod 'CrayWebViewController'
 
 See Example.
 
-
 ``` sh
 pod try CrayWebViewController
 ```
 
+### Basic WebViewController(needed implement)
+
 1. Apply `CrayTabWebViewController` to UIViewController class.
 2. connect Outlet to WebView and delegate.
 3. set `URL` property or call `- (void)goToAddress:(NSString *) URL;`
+
+### Standalone WebViewController
+
+``` objc
+CrayStandaloneWebViewController *controller = [CrayStandaloneWebViewController webViewController];
+controller.URL = @"https://google.com";
+[self.navigationController pushViewController:controller animated:YES];
+```
+
+![img](http://monosnap.com/image/gQ0RhyXbTbVTBAldPPOTHMmJaXqmrg.png)
+
+![action](http://monosnap.com/image/ADdPQeMeNgL3T2aj7PKnVrGXkxVZyF.png)
 
 ## Contributing
 

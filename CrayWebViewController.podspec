@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.resources = ["Lib/**/*.storyboard"]
 
   s.requires_arc = true
-  s.dependency "NJKWebViewProgress", "TUSafariActivity"
+  s.dependency "NJKWebViewProgress"
+  s.dependency "TUSafariActivity"
 end

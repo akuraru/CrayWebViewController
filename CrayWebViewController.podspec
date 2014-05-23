@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s
   }
   s.source_files = "Lib/**/*.{h,m}"
+  spec.resources = ["Lib/**/*.storyboard"]
+
   s.requires_arc = true
   s.dependency "NJKWebViewProgress", "TUSafariActivity"
 end

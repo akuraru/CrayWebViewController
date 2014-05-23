@@ -17,6 +17,10 @@
 
 @implementation CrayTabWebViewController
 
+- (NSString *)currentPageURL {
+    return [self.contentWebView stringByEvaluatingJavaScriptFromString:@"window.location.href"];
+}
+
 - (void)goToAddress:(NSString *) URL {
     NSURL *url = [NSURL URLWithString:URL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -83,6 +87,7 @@
 }
 
 #pragma mark - NJKWebViewProgressDelegate
+
 - (void)webViewProgress:(NJKWebViewProgress *) webViewProgress updateProgress:(float) progress {
     [self.progressView setProgress:progress animated:YES];
     self.navigationItem.title = [self.contentWebView stringByEvaluatingJavaScriptFromString:@"document.title"];

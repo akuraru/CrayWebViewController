@@ -41,10 +41,8 @@ controller.URL = @"https://google.com";
 Provide simple Modal WebViewController
 
 ```objc
-UINavigationController *navigation = [CrayModalWebViewController navigationController];
-CrayModalWebViewController *controller = (id)navigation.topViewController;
-controller.URL = @"https://google.com";
-[self presentViewController:navigation animated:YES completion:nil];
+NSString *url = @"https://google.com";
+[CrayModalWebViewController showFromViewController:self URL:url];
 ```
 
 

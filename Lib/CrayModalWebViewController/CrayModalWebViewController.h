@@ -6,5 +6,6 @@
 #import "CrayStandaloneWebViewController.h"
 
 @interface CrayModalWebViewController : CrayStandaloneWebViewController
++ (void)showFromViewController:(id)viewController URL:(NSString *)URL;
 + (UINavigationController *)navigationController;
 @end

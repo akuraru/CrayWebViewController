@@ -41,9 +41,7 @@
     [self.navigationController pushViewController:controller animated:YES];
 }
 - (IBAction)handleModalButton:(id)sender {
-    UINavigationController *navigation = [CrayModalWebViewController navigationController];
-    CrayModalWebViewController *controller = (id)navigation.topViewController;
-    controller.URL = @"https://google.com";
-    [self presentViewController:navigation animated:YES completion:nil];
+    NSString *url = @"https://google.com";
+    [CrayModalWebViewController showFromViewController:self URL:url];
 }
 @end

@@ -4,6 +4,7 @@
 //
 
 #import "CrayModalWebViewController.h"
+#import "CrayBundleSupport.h"
 
 @interface CrayTabWebViewController ()
 @property(weak, nonatomic) IBOutlet UIWebView *contentWebView;
@@ -44,7 +45,7 @@
 }
 
 - (NSString *)backButtonItemTitle {
-    return NSLocalizedString(@"Back", nil);
+    return [CrayBundleSupport localizedStringForKey:@"CrayWebViewControllerBack" withDefault:@"Back"];
 }
 
 @end

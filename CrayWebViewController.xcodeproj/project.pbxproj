@@ -15,6 +15,7 @@
 		17B5C529E11D4857EF924B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
 		17B5C5F4F3EE30435CE97340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */; };
 		17B5C662884E3CE8878B3D64 /* CrayTabWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */; };
+		17B5C6CF34E89CA5B0A5E213 /* CrayBundleSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C5C64E3739428DB9E369 /* CrayBundleSupport.m */; };
 		17B5C6EBF8459603AAE3BBB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C397093E8130E18EA444 /* InfoPlist.strings */; };
 		17B5CA7BC5DD269C47C50D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6865F64C934723AD1AE /* main.m */; };
 		17B5CAFD1F8A6A7C30B4FC88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1A35F4C797EC3896044 /* Images.xcassets */; };
@@ -22,6 +23,7 @@
 		17B5CC8344549DDC3948C25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
 		17B5CDB7ADA50F0F3C5A0A35 /* CrayWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */; };
 		17B5CE95873F4F1E9D7AE2E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C752452BEF2D06BE155F /* UIKit.framework */; };
+		73B3F689193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73B3F688193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle */; };
 		73E53E51192F2194000AA330 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E53E50192F2194000AA330 /* SecondViewController.m */; };
 		73E53E69192F2CDC000AA330 /* CrayStandaloneWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E53E68192F2CDC000AA330 /* CrayStandaloneWebViewController.storyboard */; };
 		BEAB86E8193DC82D0098E80F /* CrayModalWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB86E7193DC82D0098E80F /* CrayModalWebViewController.storyboard */; };
@@ -53,11 +55,13 @@
 		17B5C4934AF929398D0EDF26 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		17B5C5194953944D7976F751 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		17B5C533204305911CA6BA24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5C5C64E3739428DB9E369 /* CrayBundleSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayBundleSupport.m; sourceTree = "<group>"; };
 		17B5C5E752DA7F064116E2A4 /* CrayWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrayWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5C6865F64C934723AD1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17B5C71908EE66598EFA9DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17B5C752452BEF2D06BE155F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		17B5C790D5F0EF312A972C2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C933A8831AFFC68838CB /* CrayBundleSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayBundleSupport.h; sourceTree = "<group>"; };
 		17B5C988A456AD6BC6971D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		17B5C9EDBEB8DEFDB23BDB3B /* CrayStandaloneWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayStandaloneWebViewController.h; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 		17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrayWebViewControllerTests.m; sourceTree = "<group>"; };
 		17B5CF7A077B8A3A84627857 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayTabWebViewController.m; sourceTree = "<group>"; };
+		73B3F688193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CrayWebViewControlleryLocalized.bundle; sourceTree = "<group>"; };
 		73E53E4F192F2194000AA330 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		73E53E50192F2194000AA330 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		73E53E52192F2796000AA330 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
@@ -154,6 +159,15 @@
 			path = CrayWebViewController;
 			sourceTree = "<group>";
 		};
+		17B5C7D21D0A9D1F3398E8E3 /* CrayBundleSupport */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C5C64E3739428DB9E369 /* CrayBundleSupport.m */,
+				17B5C933A8831AFFC68838CB /* CrayBundleSupport.h */,
+			);
+			path = CrayBundleSupport;
+			sourceTree = "<group>";
+		};
 		17B5C8B02C1A20657A5523C8 = {
 			isa = PBXGroup;
 			children = (
@@ -202,9 +216,11 @@
 		17B5CC9CA2FF60BEDEED9BED /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				73B3F688193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle */,
 				17B5CE0D460BCC64A817A8D4 /* CrayTabWebViewController */,
 				17B5C9A73C4EB1F5C84C66C7 /* CrayStandaloneWebViewController */,
 				C8790D4608CC56636B7222D3 /* CrayModalWebViewController */,
+				17B5C7D21D0A9D1F3398E8E3 /* CrayBundleSupport */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -302,6 +318,7 @@
 			files = (
 				BECE2BEA19340E21006C0F0B /* Main.storyboard in Resources */,
 				BEAB86E8193DC82D0098E80F /* CrayModalWebViewController.storyboard in Resources */,
+				73B3F689193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle in Resources */,
 				73E53E69192F2CDC000AA330 /* CrayStandaloneWebViewController.storyboard in Resources */,
 				17B5CAFD1F8A6A7C30B4FC88 /* Images.xcassets in Resources */,
 			);
@@ -371,6 +388,7 @@
 				17B5C662884E3CE8878B3D64 /* CrayTabWebViewController.m in Sources */,
 				17B5C154DB7F074755FE0D94 /* CrayStandaloneWebViewController.m in Sources */,
 				C87906C1E2F6B34A6E835E24 /* CrayModalWebViewController.m in Sources */,
+				17B5C6CF34E89CA5B0A5E213 /* CrayBundleSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

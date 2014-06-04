@@ -14,6 +14,13 @@
 
 }
 
++ (void)showFromViewController:(id)viewController URL:(NSString *)URL {
+    UINavigationController *navigation = [CrayModalWebViewController navigationController];
+    CrayModalWebViewController *controller = (id)navigation.topViewController;
+    controller.URL = URL;
+    [viewController presentViewController:navigation animated:YES completion:nil];
+}
+
 + (UINavigationController *)navigationController {
     return [[self storyboard] instantiateInitialViewController];
 }

@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s
   }
   s.source_files = "Lib/**/*.{h,m}"
-  s.resources = ["Lib/**/*.storyboard"]
+  s.resources    = ["Lib/**/*.storyboard", "Lib/**/*.bundle"]
 
   s.requires_arc = true
   s.dependency "NJKWebViewProgress"

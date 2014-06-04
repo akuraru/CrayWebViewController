@@ -36,6 +36,18 @@ controller.URL = @"https://google.com";
 
 ![action](http://monosnap.com/image/ADdPQeMeNgL3T2aj7PKnVrGXkxVZyF.png)
 
+### Modal WebViewController
+
+Provide simple Modal WebViewController
+
+```objc
+UINavigationController *navigation = [CrayModalWebViewController navigationController];
+CrayModalWebViewController *controller = (id)navigation.topViewController;
+controller.URL = @"https://google.com";
+[self presentViewController:navigation animated:YES completion:nil];
+```
+
+
 ## Contributing
 
 1. Fork it!

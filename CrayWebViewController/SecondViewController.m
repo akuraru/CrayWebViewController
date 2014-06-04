@@ -8,9 +8,11 @@
 
 #import "SecondViewController.h"
 #import "CrayStandaloneWebViewController.h"
+#import "CrayModalWebViewController.h"
 
 @interface SecondViewController ()
 - (IBAction)handleStandaloneButton:(id)sender;
+- (IBAction)handleModalButton:(id)sender;
 @end
 
 @implementation SecondViewController
@@ -37,5 +39,11 @@
     CrayStandaloneWebViewController *controller = [CrayStandaloneWebViewController webViewController];
     controller.URL = @"https://google.com";
     [self.navigationController pushViewController:controller animated:YES];
+}
+- (IBAction)handleModalButton:(id)sender {
+    UINavigationController *navigation = [CrayModalWebViewController navigationController];
+    CrayModalWebViewController *controller = (id)navigation.topViewController;
+    controller.URL = @"https://google.com";
+    [self presentViewController:navigation animated:YES completion:nil];
 }
 @end

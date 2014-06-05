@@ -4,6 +4,10 @@ Purpose: Easy to use commonplace UIWebViewController
 
 ![img](http://gyazo.com/88c8b0a4d606815f813d7728b66a0e91.gif)
 
+* Easy to use ViewController which contain WebView.
+    * Push , Modal, Tab
+* Support iPad
+
 ## Installation
 
 ``` sh

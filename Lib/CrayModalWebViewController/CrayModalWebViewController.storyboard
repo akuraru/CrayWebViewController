@@ -31,7 +31,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NPy-h8-wrC">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPy-h8-wrC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,6 +41,12 @@
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="NPy-h8-wrC" secondAttribute="trailing" id="Bv7-b8-VRf"/>
+                            <constraint firstItem="NPy-h8-wrC" firstAttribute="top" secondItem="aLv-Dw-Okv" secondAttribute="top" id="XGw-mn-p3H"/>
+                            <constraint firstItem="cfj-EV-B1J" firstAttribute="top" secondItem="NPy-h8-wrC" secondAttribute="bottom" id="dny-dE-NVi"/>
+                            <constraint firstItem="NPy-h8-wrC" firstAttribute="leading" secondItem="aLv-Dw-Okv" secondAttribute="leading" id="rXR-Rz-l51"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pvd-mk-QpG">
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="YnG-nw-4Sd">

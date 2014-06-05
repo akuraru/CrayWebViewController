@@ -144,6 +144,7 @@
 		17B5C5E59B34D490E40F997F /* CrayWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				73FED3B319405CF100C048F7 /* iPad */,
 				17B5C4C203F0402103B4F420 /* Supporting Files */,
 				17B5C71908EE66598EFA9DFA /* AppDelegate.h */,
 				17B5C533204305911CA6BA24 /* AppDelegate.m */,
@@ -232,6 +233,13 @@
 				17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */,
 			);
 			path = CrayTabWebViewController;
+			sourceTree = "<group>";
+		};
+		73FED3B319405CF100C048F7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 		C8790D4608CC56636B7222D3 /* CrayModalWebViewController */ = {
@@ -490,7 +498,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrayWebViewController/CrayWebViewController-Prefix.pch";
 				INFOPLIST_FILE = "CrayWebViewController/CrayWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -543,7 +553,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrayWebViewController/CrayWebViewController-Prefix.pch";
 				INFOPLIST_FILE = "CrayWebViewController/CrayWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};

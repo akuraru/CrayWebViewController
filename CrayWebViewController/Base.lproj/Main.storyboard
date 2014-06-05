@@ -35,8 +35,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCy-Nq-IED">
-                                <rect key="frame" x="122" y="204" width="76" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCy-Nq-IED">
+                                <rect key="frame" x="122" y="95" width="76" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <string key="title">standalone
@@ -48,7 +48,7 @@
                                     <action selector="handleStandaloneButton:" destination="m1t-jv-rdJ" eventType="touchUpInside" id="9Re-HU-Wtg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foU-I2-zAS">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foU-I2-zAS">
                                 <rect key="frame" x="122" y="274" width="76" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
@@ -61,17 +61,18 @@
                                     <action selector="handleModalButton:" destination="m1t-jv-rdJ" eventType="touchUpInside" id="OZP-56-Yfn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prL-Sz-7uk">
+                                <rect key="frame" x="72" y="180" width="176" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="standalone+hook back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleAllInOneBackButton:" destination="m1t-jv-rdJ" eventType="touchUpInside" id="e9e-tn-mhw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="foU-I2-zAS" secondAttribute="trailing" constant="122" id="0L8-Rh-eut"/>
-                            <constraint firstItem="hf3-iV-cBB" firstAttribute="top" secondItem="foU-I2-zAS" secondAttribute="bottom" constant="173" id="LNd-NO-aNs"/>
-                            <constraint firstItem="vCy-Nq-IED" firstAttribute="leading" secondItem="CFJ-0r-Dcy" secondAttribute="leading" constant="122" id="Rfc-0d-P5Z"/>
-                            <constraint firstItem="foU-I2-zAS" firstAttribute="top" secondItem="vCy-Nq-IED" secondAttribute="bottom" constant="22" id="b6W-Qa-snA"/>
-                            <constraint firstItem="vCy-Nq-IED" firstAttribute="top" secondItem="azi-wb-Rup" secondAttribute="bottom" constant="140" id="eDK-8b-jYx"/>
-                            <constraint firstItem="foU-I2-zAS" firstAttribute="leading" secondItem="CFJ-0r-Dcy" secondAttribute="leading" constant="122" id="rgl-KF-PEg"/>
-                            <constraint firstAttribute="trailing" secondItem="vCy-Nq-IED" secondAttribute="trailing" constant="122" id="s83-y7-6jH"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jfU-5l-8Nv"/>
                 </viewController>

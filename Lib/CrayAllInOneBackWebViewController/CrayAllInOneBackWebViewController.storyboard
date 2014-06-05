@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-200" y="423"/>
         </scene>
-        <!--Cray All In One Back Web View Controller-->
+        <!--Cray All In Back Web View Controller-->
         <scene sceneID="3Hc-WR-Zz6">
             <objects>
-                <viewController storyboardIdentifier="CrayAllInOneBackWebViewController" id="MW1-dH-LWN" customClass="CrayAllInOneBackWebViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CrayAllInBackWebViewController" id="MW1-dH-LWN" customClass="CrayAllInOneBackWebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lby-Cv-5u5"/>
                         <viewControllerLayoutGuide type="bottom" id="cfj-EV-B1J"/>
@@ -36,16 +36,16 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <outlet property="delegate" destination="MW1-dH-LWN" id="eMW-G8-hYh"/>
+                                    <outlet property="delegate" destination="MW1-dH-LWN" id="Vdn-nm-Ewd"/>
                                 </connections>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="NPy-h8-wrC" secondAttribute="trailing" id="FIK-YJ-8dD"/>
-                            <constraint firstItem="NPy-h8-wrC" firstAttribute="top" secondItem="aLv-Dw-Okv" secondAttribute="top" id="Jlq-N3-HpC"/>
-                            <constraint firstItem="cfj-EV-B1J" firstAttribute="top" secondItem="NPy-h8-wrC" secondAttribute="bottom" id="PQt-i6-OJ1"/>
-                            <constraint firstItem="NPy-h8-wrC" firstAttribute="leading" secondItem="aLv-Dw-Okv" secondAttribute="leading" id="WYk-gt-BLO"/>
+                            <constraint firstAttribute="trailing" secondItem="NPy-h8-wrC" secondAttribute="trailing" id="Bv7-b8-VRf"/>
+                            <constraint firstItem="NPy-h8-wrC" firstAttribute="top" secondItem="aLv-Dw-Okv" secondAttribute="top" id="XGw-mn-p3H"/>
+                            <constraint firstItem="cfj-EV-B1J" firstAttribute="top" secondItem="NPy-h8-wrC" secondAttribute="bottom" id="dny-dE-NVi"/>
+                            <constraint firstItem="NPy-h8-wrC" firstAttribute="leading" secondItem="aLv-Dw-Okv" secondAttribute="leading" id="rXR-Rz-l51"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pvd-mk-QpG">
@@ -56,7 +56,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="contentWebView" destination="NPy-h8-wrC" id="XO9-OP-N2s"/>
+                        <outlet property="contentWebView" destination="NPy-h8-wrC" id="sp3-F6-Wok"/>
                         <outlet property="view" destination="aLv-Dw-Okv" id="Q1t-OA-QRW"/>
                     </connections>
                 </viewController>

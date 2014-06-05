@@ -9,10 +9,13 @@
 #import "SecondViewController.h"
 #import "CrayStandaloneWebViewController.h"
 #import "CrayModalWebViewController.h"
+#import "CrayAllInOneBackWebViewController.h"
 
 @interface SecondViewController ()
 - (IBAction)handleStandaloneButton:(id)sender;
 - (IBAction)handleModalButton:(id)sender;
+- (IBAction)handleAllInOneBackButton:(id)sender;
+
 @end
 
 @implementation SecondViewController
@@ -44,4 +47,12 @@
     NSString *url = @"https://google.com";
     [CrayModalWebViewController showFromViewController:self URL:url];
 }
+
+// CrayStandaloneWebViewController + hook back button
+- (IBAction)handleAllInOneBackButton:(id)sender {
+    CrayAllInOneBackWebViewController *controller = [CrayAllInOneBackWebViewController webViewController];
+    controller.URL = @"https://google.com";
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
 @end

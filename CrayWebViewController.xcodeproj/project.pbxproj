@@ -11,6 +11,7 @@
 		17B5C154DB7F074755FE0D94 /* CrayStandaloneWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C447E6FB1655F1F72AE7 /* CrayStandaloneWebViewController.m */; };
 		17B5C1BD8D663B5F528EB383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C533204305911CA6BA24 /* AppDelegate.m */; };
 		17B5C2072EF4ABEAC6EAB92F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C359340EABF8DB1EA65A /* MasterViewController.m */; };
+		17B5C43C1442BDA5D365A10B /* CrayAllInOneBackWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE9D7D7024C29B13C05F /* CrayAllInOneBackWebViewController.m */; };
 		17B5C4A0236B9B6BFC8DABE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C752452BEF2D06BE155F /* UIKit.framework */; };
 		17B5C529E11D4857EF924B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
 		17B5C5F4F3EE30435CE97340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 		17B5C6CF34E89CA5B0A5E213 /* CrayBundleSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C5C64E3739428DB9E369 /* CrayBundleSupport.m */; };
 		17B5C6EBF8459603AAE3BBB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C397093E8130E18EA444 /* InfoPlist.strings */; };
 		17B5CA7BC5DD269C47C50D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6865F64C934723AD1AE /* main.m */; };
+		17B5CABE87709DAAC5A58B19 /* CrayAllInOneBackWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C5FC6EF4CA2DF4961C85 /* CrayAllInOneBackWebViewController.storyboard */; };
 		17B5CAFD1F8A6A7C30B4FC88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1A35F4C797EC3896044 /* Images.xcassets */; };
 		17B5CC7F75DB2BDFA9D25FF6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF7A077B8A3A84627857 /* DetailViewController.m */; };
 		17B5CC8344549DDC3948C25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
@@ -57,6 +59,7 @@
 		17B5C533204305911CA6BA24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		17B5C5C64E3739428DB9E369 /* CrayBundleSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayBundleSupport.m; sourceTree = "<group>"; };
 		17B5C5E752DA7F064116E2A4 /* CrayWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrayWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C5FC6EF4CA2DF4961C85 /* CrayAllInOneBackWebViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CrayAllInOneBackWebViewController.storyboard; sourceTree = "<group>"; };
 		17B5C6865F64C934723AD1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17B5C71908EE66598EFA9DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17B5C752452BEF2D06BE155F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -65,12 +68,14 @@
 		17B5C988A456AD6BC6971D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		17B5C9EDBEB8DEFDB23BDB3B /* CrayStandaloneWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayStandaloneWebViewController.h; sourceTree = "<group>"; };
+		17B5CA9DBD9E70E30F7E3171 /* CrayAllInOneBackWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayAllInOneBackWebViewController.h; sourceTree = "<group>"; };
 		17B5CB54A5BCED60E392E7B1 /* CrayWebViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CrayWebViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		17B5CBB18710EF8FFBBED862 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CC658121E83C4CE5525F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B5CC752EE6D1B0C2991E92 /* CrayWebViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrayWebViewController-Prefix.pch"; sourceTree = "<group>"; };
 		17B5CD8852E183EFF0A22DA5 /* CrayWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrayWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrayWebViewControllerTests.m; sourceTree = "<group>"; };
+		17B5CE9D7D7024C29B13C05F /* CrayAllInOneBackWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayAllInOneBackWebViewController.m; sourceTree = "<group>"; };
 		17B5CF7A077B8A3A84627857 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayTabWebViewController.m; sourceTree = "<group>"; };
 		73B3F688193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CrayWebViewControlleryLocalized.bundle; sourceTree = "<group>"; };
@@ -222,6 +227,7 @@
 				17B5C9A73C4EB1F5C84C66C7 /* CrayStandaloneWebViewController */,
 				C8790D4608CC56636B7222D3 /* CrayModalWebViewController */,
 				17B5C7D21D0A9D1F3398E8E3 /* CrayBundleSupport */,
+				17B5CFD5D8389B168BE89C7B /* CrayAllInOneBackWebViewController */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -233,6 +239,16 @@
 				17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */,
 			);
 			path = CrayTabWebViewController;
+			sourceTree = "<group>";
+		};
+		17B5CFD5D8389B168BE89C7B /* CrayAllInOneBackWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CE9D7D7024C29B13C05F /* CrayAllInOneBackWebViewController.m */,
+				17B5CA9DBD9E70E30F7E3171 /* CrayAllInOneBackWebViewController.h */,
+				17B5C5FC6EF4CA2DF4961C85 /* CrayAllInOneBackWebViewController.storyboard */,
+			);
+			path = CrayAllInOneBackWebViewController;
 			sourceTree = "<group>";
 		};
 		73FED3B319405CF100C048F7 /* iPad */ = {
@@ -329,6 +345,7 @@
 				73B3F689193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle in Resources */,
 				73E53E69192F2CDC000AA330 /* CrayStandaloneWebViewController.storyboard in Resources */,
 				17B5CAFD1F8A6A7C30B4FC88 /* Images.xcassets in Resources */,
+				17B5CABE87709DAAC5A58B19 /* CrayAllInOneBackWebViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +414,7 @@
 				17B5C154DB7F074755FE0D94 /* CrayStandaloneWebViewController.m in Sources */,
 				C87906C1E2F6B34A6E835E24 /* CrayModalWebViewController.m in Sources */,
 				17B5C6CF34E89CA5B0A5E213 /* CrayBundleSupport.m in Sources */,
+				17B5C43C1442BDA5D365A10B /* CrayAllInOneBackWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

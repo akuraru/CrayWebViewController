@@ -40,6 +40,23 @@ controller.URL = @"https://google.com";
 
 ![action](http://monosnap.com/image/ADdPQeMeNgL3T2aj7PKnVrGXkxVZyF.png)
 
+### CrayAllInOneBackWebViewController
+
+It's CrayStandaloneWebViewController + hook back button.
+
+``` objc
+CrayAllInOneBackWebViewController *controller = [CrayAllInOneBackWebViewController webViewController];
+controller.URL = @"https://google.com";
+[self.navigationController pushViewController:controller animated:YES];
+```
+
+*Scenario*
+
+1. Load URL*1
+2. Click URL
+3. Press BackButton -> WebView goes to back*1
+4. Press BackButton -> `[self.navigationController popViewControllerAnimated:YES];`
+
 ### Modal WebViewController
 
 Provide simple Modal WebViewController

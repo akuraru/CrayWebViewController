@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="-200" y="423"/>
         </scene>
-        <!--Cray All In Back Web View Controller-->
+        <!--Cray All In One Back Web View Controller-->
         <scene sceneID="3Hc-WR-Zz6">
             <objects>
                 <viewController storyboardIdentifier="CrayAllInBackWebViewController" id="MW1-dH-LWN" customClass="CrayAllInOneBackWebViewController" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPy-h8-wrC">
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NPy-h8-wrC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

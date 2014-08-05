@@ -8,6 +8,8 @@
 
 @interface CrayTabWebViewController : UIViewController <UIWebViewDelegate, NJKWebViewProgressDelegate> {
 }
+@property(weak, nonatomic) UIRefreshControl *refreshControl;
+
 // load to URL(initial URL)
 // use setter or "User Defined Runtime Attributes"
 @property(nonatomic, copy) NSString *URL;

@@ -12,6 +12,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   NJKWebViewProgress: 721b57080c840c76f70ff6c2dda4f836ee1b27c1
-  TUSafariActivity: bd9da588f5f9136ba445d89f8f86b6dccf4d46ba
+  TUSafariActivity: afff9b1d2eacf7cbace752c5f2bf56db852714de
 
 COCOAPODS: 0.33.1

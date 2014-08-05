@@ -41,6 +41,16 @@
     self.progressView = [[NJKWebViewProgressView alloc] initWithFrame:barFrame];
 
     [self goToAddress:self.URL];
+
+    UIRefreshControl *control = [[UIRefreshControl alloc]init];
+    [control addTarget:self action:@selector(refreshStart) forControlEvents:UIControlEventValueChanged];
+    [self.contentWebView.scrollView addSubview:control];
+    self.refreshControl = control;
+}
+
+-(void)refreshStart {
+    [self.refreshControl beginRefreshing];
+    [self.contentWebView reload];
 }
 
 - (void)webViewDidStartLoad:(UIWebView *) webView {
@@ -50,6 +60,7 @@
 - (void)webViewDidFinishLoad:(UIWebView *) webView {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     self.backWebViewButton.enabled = self.contentWebView.canGoBack;
+    [self.refreshControl endRefreshing];
 }
 
 - (BOOL)webView:(UIWebView *) webView shouldStartLoadWithRequest:(NSURLRequest *) request navigationType:(UIWebViewNavigationType) navigationType {

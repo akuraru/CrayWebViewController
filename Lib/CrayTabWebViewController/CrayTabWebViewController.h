@@ -10,6 +10,8 @@
 }
 // load to URL(initial URL)
 // use setter or "User Defined Runtime Attributes"
+@property(weak, nonatomic) UIRefreshControl *refreshControl;
+
 @property(nonatomic, copy) NSString *URL;
 
 // display page URL

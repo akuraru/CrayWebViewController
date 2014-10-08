@@ -46,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		07B9B40FCA414482B29A709A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DC601AD9B91438C7056B79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		17B5C00A8F0243194B9721AF /* CrayWebViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CrayWebViewController-Info.plist"; sourceTree = "<group>"; };
 		17B5C1A35F4C797EC3896044 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17B5C20DBCF528EEF97D54FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		17B5CE9D7D7024C29B13C05F /* CrayAllInOneBackWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayAllInOneBackWebViewController.m; sourceTree = "<group>"; };
 		17B5CF7A077B8A3A84627857 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		17B5CFC3BCB443A1F777D340 /* CrayTabWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayTabWebViewController.m; sourceTree = "<group>"; };
+		54966908C8346B6A77AE7EC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		73B3F688193EA80600C0E3FB /* CrayWebViewControlleryLocalized.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CrayWebViewControlleryLocalized.bundle; sourceTree = "<group>"; };
 		73E53E4F192F2194000AA330 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		73E53E50192F2194000AA330 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
@@ -85,7 +87,6 @@
 		73E53E53192F2796000AA330 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73E53E54192F2796000AA330 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73E53E68192F2CDC000AA330 /* CrayStandaloneWebViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CrayStandaloneWebViewController.storyboard; sourceTree = "<group>"; };
-		B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BEAB86E7193DC82D0098E80F /* CrayModalWebViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CrayModalWebViewController.storyboard; sourceTree = "<group>"; };
 		BECE2BE919340E1D006C0F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		C87902026BC47CD62EDCBCD8 /* CrayModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayModalWebViewController.m; sourceTree = "<group>"; };
@@ -182,9 +183,9 @@
 				17B5C5E59B34D490E40F997F /* CrayWebViewController */,
 				17B5C0DB89A051CC7E1CD64D /* CrayWebViewControllerTests */,
 				17B5C4934AF929398D0EDF26 /* Podfile */,
-				B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */,
 				17B5CC9CA2FF60BEDEED9BED /* Lib */,
 				17B5CBB18710EF8FFBBED862 /* readme.md */,
+				659B24B09DEB858C04E0BAC1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +250,15 @@
 				17B5C5FC6EF4CA2DF4961C85 /* CrayAllInOneBackWebViewController.storyboard */,
 			);
 			path = CrayAllInOneBackWebViewController;
+			sourceTree = "<group>";
+		};
+		659B24B09DEB858C04E0BAC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54966908C8346B6A77AE7EC8 /* Pods.release.xcconfig */,
+				08DC601AD9B91438C7056B79 /* Pods.debug.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		73FED3B319405CF100C048F7 /* iPad */ = {
@@ -372,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94738BBAF4B7468D9E9DCCF9 /* Check Pods Manifest.lock */ = {
@@ -509,7 +519,7 @@
 		};
 		17B5C705F80CFCC1C70A31E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */;
+			baseConfigurationReference = 54966908C8346B6A77AE7EC8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -564,7 +574,7 @@
 		};
 		17B5CE988BBEE98D3D440D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B59DD5F81D3F454A9EF1EFAD /* Pods.xcconfig */;
+			baseConfigurationReference = 08DC601AD9B91438C7056B79 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

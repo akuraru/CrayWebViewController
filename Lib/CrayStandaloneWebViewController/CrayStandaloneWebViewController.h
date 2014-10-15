@@ -7,5 +7,8 @@
 
 
 @interface CrayStandaloneWebViewController : CrayTabWebViewController
+// Open Menu from sender
+- (IBAction)handleActionButton:(id) sender;
+
 + (instancetype)webViewController;
 @end

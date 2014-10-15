@@ -32,4 +32,9 @@
 - (NSString *)backButtonItemTitle {
     return [CrayBundleSupport localizedStringForKey:@"CrayWebViewControllerBack" withDefault:@"Back"];
 }
+
+- (IBAction)handleActionButton:(id) sender {
+    [super handleActionButton:sender];
+}
+
 @end

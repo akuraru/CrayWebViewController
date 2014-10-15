@@ -7,13 +7,14 @@
 #import "TUSafariActivity.h"
 
 
-@interface CrayStandaloneWebViewController ()
-- (IBAction)handleActionButton:(id) sender;
-@end
-
 @implementation CrayStandaloneWebViewController {
 
 }
++ (instancetype)webViewController {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"CrayStandaloneWebViewController" bundle:[NSBundle mainBundle]];
+    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+}
+
 - (IBAction)handleActionButton:(id) sender {
     if (self.URL == nil) {
         return;
@@ -24,11 +25,6 @@
     TUSafariActivity *safariActivity = [[TUSafariActivity alloc] init];
     UIActivityViewController *activities = [[UIActivityViewController alloc] initWithActivityItems:@[URL] applicationActivities:@[safariActivity]];
     [self presentViewController:activities animated:YES completion:nil];
-}
-
-+ (instancetype)webViewController {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"CrayStandaloneWebViewController" bundle:[NSBundle mainBundle]];
-    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
 }
 
 @end

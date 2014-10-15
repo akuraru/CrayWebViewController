@@ -8,4 +8,6 @@
 
 
 @interface CrayAllInOneBackWebViewController : CrayStandaloneWebViewController
+// Open Menu from sender
+- (IBAction)handleActionButton:(id) sender;
 @end

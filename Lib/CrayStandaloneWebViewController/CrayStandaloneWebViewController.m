@@ -16,11 +16,10 @@
 }
 
 - (IBAction)handleActionButton:(id) sender {
-    if (self.URL == nil) {
+    NSString *URLString = [self currentPageURL] ?: self.URL;
+    if (URLString == nil) {
         return;
     }
-
-    NSString *URLString = [self currentPageURL] ?: self.URL;
     NSURL *URL = [NSURL URLWithString:URLString];
     TUSafariActivity *safariActivity = [[TUSafariActivity alloc] init];
     UIActivityViewController *activities = [[UIActivityViewController alloc] initWithActivityItems:@[URL] applicationActivities:@[safariActivity]];

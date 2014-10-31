@@ -11,7 +11,7 @@
 
 }
 + (instancetype)webViewController {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"CrayStandaloneWebViewController" bundle:[NSBundle mainBundle]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:NSStringFromClass([self class]) bundle:[NSBundle mainBundle]];
     return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
 }
 
@@ -23,6 +23,9 @@
     NSURL *URL = [NSURL URLWithString:URLString];
     TUSafariActivity *safariActivity = [[TUSafariActivity alloc] init];
     UIActivityViewController *activities = [[UIActivityViewController alloc] initWithActivityItems:@[URL] applicationActivities:@[safariActivity]];
+    if ([activities respondsToSelector:@selector(popoverPresentationController)]) {
+        activities.popoverPresentationController.barButtonItem = sender;
+    }
     [self presentViewController:activities animated:YES completion:nil];
 }
 

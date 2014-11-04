@@ -22,6 +22,9 @@
 }
 
 - (void)goToAddress:(NSString *) URL {
+    if (URL == nil) {
+        return;
+    }
     NSURL *url = [NSURL URLWithString:URL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.contentWebView loadRequest:request];
@@ -42,13 +45,13 @@
 
     [self goToAddress:self.URL];
 
-    UIRefreshControl *control = [[UIRefreshControl alloc]init];
+    UIRefreshControl *control = [[UIRefreshControl alloc] init];
     [control addTarget:self action:@selector(refreshStart) forControlEvents:UIControlEventValueChanged];
     [self.contentWebView.scrollView addSubview:control];
     self.refreshControl = control;
 }
 
--(void)refreshStart {
+- (void)refreshStart {
     [self.refreshControl beginRefreshing];
     [self.contentWebView reload];
 }

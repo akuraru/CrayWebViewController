@@ -8,6 +8,7 @@
 
 @interface CrayTabWebViewController ()
 @property(weak, nonatomic) IBOutlet UIWebView *contentWebView;
++ (UIStoryboard *)storyboard;
 @end
 
 @implementation CrayModalWebViewController {
@@ -25,34 +26,12 @@
     return [[self storyboard] instantiateInitialViewController];
 }
 
-+ (instancetype)webViewController {
-    return [[self storyboard] instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
-}
-
-+ (UIStoryboard *)storyboard {
-    return [UIStoryboard storyboardWithName:[self storyboardName] bundle:[NSBundle mainBundle]];
-}
-
-+ (NSString *)storyboardName {
-    return @"CrayModalWebViewController";
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:[self backButtonItemTitle] style:UIBarButtonItemStylePlain target:self action:@selector(back:)];
-    self.navigationItem.leftBarButtonItem = item;
-}
-
-- (void)back:(id)sender {
+- (void)handleBackButton:(id)sender {
     if ([self.contentWebView canGoBack]) {
         [self.contentWebView goBack];
     } else {
         [self dismissViewControllerAnimated:YES completion:nil];
     }
-}
-
-- (NSString *)backButtonItemTitle {
-    return [CrayBundleSupport localizedStringForKey:@"CrayWebViewControllerBack" withDefault:@"Back"];
 }
 
 @end

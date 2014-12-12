@@ -3,9 +3,9 @@
 // Copyright (c) 2014 azu. All rights reserved.
 //
 
-#import "CrayStandaloneWebViewController.h"
+#import "CrayAllInOneBackWebViewController.h"
 
-@interface CrayModalWebViewController : CrayStandaloneWebViewController
+@interface CrayModalWebViewController : CrayAllInOneBackWebViewController
 + (void)showFromViewController:(id)viewController URL:(NSString *)URL;
 + (UINavigationController *)navigationController;
 @end

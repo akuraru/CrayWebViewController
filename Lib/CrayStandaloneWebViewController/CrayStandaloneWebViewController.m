@@ -11,8 +11,11 @@
 
 }
 + (instancetype)webViewController {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:NSStringFromClass([self class]) bundle:[NSBundle mainBundle]];
-    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+    return [[self storyboard] instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+}
+
++ (UIStoryboard *)storyboard {
+    return [UIStoryboard storyboardWithName:NSStringFromClass(self) bundle:[NSBundle mainBundle]];
 }
 
 - (IBAction)handleActionButton:(id) sender {

@@ -31,6 +31,7 @@
 		BEAB86E8193DC82D0098E80F /* CrayModalWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB86E7193DC82D0098E80F /* CrayModalWebViewController.storyboard */; };
 		BECE2BEA19340E21006C0F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C88D96921E16A2EF4BB1 /* Main.storyboard */; };
 		C87906C1E2F6B34A6E835E24 /* CrayModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87902026BC47CD62EDCBCD8 /* CrayModalWebViewController.m */; };
+		C8790B35D7FCAF85BE8B9433 /* CrayNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87906FBEA0BB8B4F60D8F1A /* CrayNavigationController.m */; };
 		E15E292ACAE04B5DBC523AB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B9B40FCA414482B29A709A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,8 @@
 		BECE2BE919340E1D006C0F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		C87902026BC47CD62EDCBCD8 /* CrayModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayModalWebViewController.m; sourceTree = "<group>"; };
 		C879044E49306F76B9E12037 /* CrayModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayModalWebViewController.h; sourceTree = "<group>"; };
+		C87906FBEA0BB8B4F60D8F1A /* CrayNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayNavigationController.m; sourceTree = "<group>"; };
+		C8790C27B331B542B514CCD0 /* CrayNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayNavigationController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +277,8 @@
 				BEAB86E7193DC82D0098E80F /* CrayModalWebViewController.storyboard */,
 				C87902026BC47CD62EDCBCD8 /* CrayModalWebViewController.m */,
 				C879044E49306F76B9E12037 /* CrayModalWebViewController.h */,
+				C87906FBEA0BB8B4F60D8F1A /* CrayNavigationController.m */,
+				C8790C27B331B542B514CCD0 /* CrayNavigationController.h */,
 			);
 			path = CrayModalWebViewController;
 			sourceTree = "<group>";
@@ -425,6 +430,7 @@
 				C87906C1E2F6B34A6E835E24 /* CrayModalWebViewController.m in Sources */,
 				17B5C6CF34E89CA5B0A5E213 /* CrayBundleSupport.m in Sources */,
 				17B5C43C1442BDA5D365A10B /* CrayAllInOneBackWebViewController.m in Sources */,
+				C8790B35D7FCAF85BE8B9433 /* CrayNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

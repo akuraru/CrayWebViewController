@@ -38,20 +38,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSString *)urlString {
+    return @"https://github.com/";
+}
+
 - (IBAction)handleStandaloneButton:(id)sender {
     CrayStandaloneWebViewController *controller = [CrayStandaloneWebViewController webViewController];
-    controller.URL = @"https://google.com";
+    controller.URL = [self urlString];
     [self.navigationController pushViewController:controller animated:YES];
 }
 - (IBAction)handleModalButton:(id)sender {
-    NSString *url = @"https://google.com";
-    [CrayModalWebViewController showFromViewController:self URL:url];
+    [CrayModalWebViewController showFromViewController:self URL:[self urlString]];
 }
 
 // CrayStandaloneWebViewController + hook back button
 - (IBAction)handleAllInOneBackButton:(id)sender {
     CrayAllInOneBackWebViewController *controller = [CrayAllInOneBackWebViewController webViewController];
-    controller.URL = @"https://google.com";
+    controller.URL = [self urlString];
     [self.navigationController pushViewController:controller animated:YES];
 }
 

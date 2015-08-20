@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CrayWebViewController"
-  s.version      = "0.7.5"
+  s.version      = "0.7.6"
   s.summary      = "Easy to use commonplace UIWebViewController."
   s.homepage     = "https://github.com/plusr/CrayWebViewController"
   s.screenshots  = "http://gyazo.com/88c8b0a4d606815f813d7728b66a0e91.gif"
@@ -39,12 +39,12 @@ Pod::Spec.new do |s|
     a.resources    = ["Lib/CrayAllInOneBackWebViewController/*.storyboard"]
     a.source_files  = 'Lib/CrayAllInOneBackWebViewController/*.{h,m}'
     a.dependency 'CrayWebViewController/CrayStandaloneWebViewController'
+    a.dependency 'CrayWebViewController/CrayBundleSupport'
   end
   s.subspec 'CrayModalWebViewController' do |a|
     a.resources    = ["Lib/CrayModalWebViewController/*.storyboard"]
     a.source_files  = 'Lib/CrayModalWebViewController/*.{h,m}'
     a.dependency 'CrayWebViewController/CrayAllInOneBackWebViewController'
     a.dependency 'CrayWebViewController/CrayNavigationController'
-    a.dependency 'CrayWebViewController/CrayBundleSupport'
   end
 end

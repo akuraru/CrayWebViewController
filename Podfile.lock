@@ -1,17 +1,44 @@
 PODS:
+  - CrayWebViewController (0.7.5):
+    - CrayWebViewController/Core (= 0.7.5)
+    - CrayWebViewController/CrayAllInOneBackWebViewController (= 0.7.5)
+    - CrayWebViewController/CrayBundleSupport (= 0.7.5)
+    - CrayWebViewController/CrayModalWebViewController (= 0.7.5)
+    - CrayWebViewController/CrayNavigationController (= 0.7.5)
+    - CrayWebViewController/CrayStandaloneWebViewController (= 0.7.5)
+  - CrayWebViewController/Core (0.7.5):
+    - NJKWebViewProgress
+  - CrayWebViewController/CrayAllInOneBackWebViewController (0.7.5):
+    - CrayWebViewController/CrayStandaloneWebViewController
+  - CrayWebViewController/CrayBundleSupport (0.7.5)
+  - CrayWebViewController/CrayModalWebViewController (0.7.5):
+    - CrayWebViewController/CrayAllInOneBackWebViewController
+    - CrayWebViewController/CrayBundleSupport
+    - CrayWebViewController/CrayNavigationController
+  - CrayWebViewController/CrayNavigationController (0.7.5)
+  - CrayWebViewController/CrayStandaloneWebViewController (0.7.5):
+    - CrayWebViewController/Core
+    - TUSafariActivity
+  - Kiwi (2.4.0)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
-  - TUSafariActivity (1.0.0)
+  - TUSafariActivity (1.0.4)
 
 DEPENDENCIES:
-  - NJKWebViewProgress
-  - TUSafariActivity (= 1.0.0)
+  - CrayWebViewController (from `./`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  CrayWebViewController:
+    :path: "./"
 
 SPEC CHECKSUMS:
-  NJKWebViewProgress: 721b57080c840c76f70ff6c2dda4f836ee1b27c1
-  TUSafariActivity: afff9b1d2eacf7cbace752c5f2bf56db852714de
+  CrayWebViewController: afd180f9afd77b589e1b738f97087cb4f60cbd14
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.38.2

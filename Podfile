@@ -1,3 +1,11 @@
-platform :ios, '6.0'
-pod 'NJKWebViewProgress'
-pod 'TUSafariActivity','1.0.0'
+platform :ios, '7.0'
+
+target 'CrayWebViewController', :exclusive => true do
+  pod "CrayWebViewController", :path => "./"
+end
+
+target 'CrayWebViewControllerTests', :exclusive => true do
+  pod "CrayWebViewController", :path => "./"
+
+  pod 'Kiwi'
+end

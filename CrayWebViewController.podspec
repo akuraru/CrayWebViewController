@@ -14,10 +14,37 @@ Pod::Spec.new do |s|
       :git => "https://github.com/plusr/CrayWebViewController.git",
       :tag => s.version.to_s
   }
-  s.source_files = "Lib/**/*.{h,m}"
-  s.resources    = ["Lib/**/*.storyboard", "Lib/**/*.bundle"]
 
   s.requires_arc = true
-  s.dependency "NJKWebViewProgress"
-  s.dependency "TUSafariActivity", "1.0.0"
+
+  s.subspec 'Core' do |a|
+    a.dependency "NJKWebViewProgress"
+    a.source_files = "Lib/CrayTabWebViewController/*.{h,m}"
+  end
+  s.subspec 'CrayNavigationController' do |a|
+    a.source_files  = 'Lib/CrayNavigationController/*.{h,m}'
+  end
+  s.subspec 'CrayBundleSupport' do |a|
+    a.resources    = ["Lib/**/*.bundle"]
+    a.source_files  = 'Lib/CrayBundleSupport/*.{h,m}'
+  end
+
+  s.subspec 'CrayStandaloneWebViewController' do |a|
+    a.resources    = ["Lib/CrayStandaloneWebViewController/*.storyboard"]
+    a.source_files  = 'Lib/CrayStandaloneWebViewController/*.{h,m}'
+    a.dependency 'CrayWebViewController/Core'
+    a.dependency "TUSafariActivity"
+  end
+  s.subspec 'CrayAllInOneBackWebViewController' do |a|
+    a.resources    = ["Lib/CrayAllInOneBackWebViewController/*.storyboard"]
+    a.source_files  = 'Lib/CrayAllInOneBackWebViewController/*.{h,m}'
+    a.dependency 'CrayWebViewController/CrayStandaloneWebViewController'
+  end
+  s.subspec 'CrayModalWebViewController' do |a|
+    a.resources    = ["Lib/CrayModalWebViewController/*.storyboard"]
+    a.source_files  = 'Lib/CrayModalWebViewController/*.{h,m}'
+    a.dependency 'CrayWebViewController/CrayAllInOneBackWebViewController'
+    a.dependency 'CrayWebViewController/CrayNavigationController'
+    a.dependency 'CrayWebViewController/CrayBundleSupport'
+  end
 end

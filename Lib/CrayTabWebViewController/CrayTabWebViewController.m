@@ -32,6 +32,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *version = [[UIDevice currentDevice] systemVersion];
+    if ([version hasPrefix:@"9.0"]) {
+        self.contentWebView.suppressesIncrementalRendering = YES;
+    }
     self.progressProxy = [[NJKWebViewProgress alloc] init];
     self.contentWebView.delegate = self.progressProxy;
     self.progressProxy.webViewProxyDelegate = self;

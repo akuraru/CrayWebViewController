@@ -1,10 +1,10 @@
 platform :ios, '7.0'
 
-target 'CrayWebViewController', :exclusive => true do
+target 'CrayWebViewController' do
   pod "CrayWebViewController", :path => "./"
 end
 
-target 'CrayWebViewControllerTests', :exclusive => true do
+target 'CrayWebViewControllerTests' do
   pod "CrayWebViewController", :path => "./"
 
   pod 'Kiwi'

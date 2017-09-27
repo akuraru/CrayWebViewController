@@ -20,10 +20,10 @@
 		17B5CC8344549DDC3948C25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C988A456AD6BC6971D98 /* Foundation.framework */; };
 		17B5CDB7ADA50F0F3C5A0A35 /* CrayWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */; };
 		17B5CE95873F4F1E9D7AE2E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C752452BEF2D06BE155F /* UIKit.framework */; };
-		2F7FC3F4987AE98DFE241F14 /* libPods-CrayWebViewControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3598DF9E8D67F995C5BF3E01 /* libPods-CrayWebViewControllerTests.a */; };
+		30D6F379D4B7396FD85C05F0 /* libPods-CrayWebViewControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A67C1DAF6C8A74CE93520FE /* libPods-CrayWebViewControllerTests.a */; };
+		4BDBB831944325B8AFFAE859 /* libPods-CrayWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DCF31E359486654C506EE8 /* libPods-CrayWebViewController.a */; };
 		73E53E51192F2194000AA330 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E53E50192F2194000AA330 /* SecondViewController.m */; };
 		BECE2BEA19340E21006C0F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C88D96921E16A2EF4BB1 /* Main.storyboard */; };
-		C3CC8E7477FC6387A0E22DE7 /* libPods-CrayWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394CE5E52409ECF5C5C17477 /* libPods-CrayWebViewController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +59,18 @@
 		17B5CD8852E183EFF0A22DA5 /* CrayWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrayWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5CE304E8E38FDA447ABB1 /* CrayWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrayWebViewControllerTests.m; sourceTree = "<group>"; };
 		17B5CF7A077B8A3A84627857 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		270FBBFEA883218C97DE9670 /* Pods-CrayWebViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewControllerTests/Pods-CrayWebViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
-		336DEAE5C45664759EDE2E8C /* Pods-CrayWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController.release.xcconfig"; sourceTree = "<group>"; };
-		3598DF9E8D67F995C5BF3E01 /* libPods-CrayWebViewControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrayWebViewControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		394CE5E52409ECF5C5C17477 /* libPods-CrayWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrayWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6980C53A3B03CA540C481779 /* Pods-CrayWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		259DC53D9E7936BA6CB50068 /* Pods-CrayWebViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewControllerTests/Pods-CrayWebViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2301F3A6A42117DA4574A2 /* Pods-CrayWebViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewControllerTests/Pods-CrayWebViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A2FDDC939608B584028A72D /* Pods-CrayWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController.release.xcconfig"; sourceTree = "<group>"; };
+		4A67C1DAF6C8A74CE93520FE /* libPods-CrayWebViewControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrayWebViewControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E53E4F192F2194000AA330 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		73E53E50192F2194000AA330 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		73E53E52192F2796000AA330 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		73E53E53192F2796000AA330 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73E53E54192F2796000AA330 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6E16CF93C4B5F4668F75030 /* Pods-CrayWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		BECE2BE919340E1D006C0F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		ECAF448195FFD9DBEB76D026 /* Pods-CrayWebViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrayWebViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrayWebViewControllerTests/Pods-CrayWebViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DCF31E359486654C506EE8 /* libPods-CrayWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrayWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				17B5C0161772D9A5DE8E4A58 /* XCTest.framework in Frameworks */,
 				17B5CC8344549DDC3948C25E /* Foundation.framework in Frameworks */,
 				17B5CE95873F4F1E9D7AE2E0 /* UIKit.framework in Frameworks */,
-				2F7FC3F4987AE98DFE241F14 /* libPods-CrayWebViewControllerTests.a in Frameworks */,
+				30D6F379D4B7396FD85C05F0 /* libPods-CrayWebViewControllerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 				17B5C529E11D4857EF924B2C /* Foundation.framework in Frameworks */,
 				17B5C5F4F3EE30435CE97340 /* CoreGraphics.framework in Frameworks */,
 				17B5C4A0236B9B6BFC8DABE0 /* UIKit.framework in Frameworks */,
-				C3CC8E7477FC6387A0E22DE7 /* libPods-CrayWebViewController.a in Frameworks */,
+				4BDBB831944325B8AFFAE859 /* libPods-CrayWebViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 				17B5C0DB89A051CC7E1CD64D /* CrayWebViewControllerTests */,
 				17B5C4934AF929398D0EDF26 /* Podfile */,
 				17B5CBB18710EF8FFBBED862 /* readme.md */,
-				659B24B09DEB858C04E0BAC1 /* Pods */,
+				A1FDC465B189F031C9138388 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +166,8 @@
 				17B5C99E01BF2CAFC0B73EC6 /* CoreGraphics.framework */,
 				17B5C752452BEF2D06BE155F /* UIKit.framework */,
 				17B5C2F394876B4FBE1CF4EC /* XCTest.framework */,
-				394CE5E52409ECF5C5C17477 /* libPods-CrayWebViewController.a */,
-				3598DF9E8D67F995C5BF3E01 /* libPods-CrayWebViewControllerTests.a */,
+				D3DCF31E359486654C506EE8 /* libPods-CrayWebViewController.a */,
+				4A67C1DAF6C8A74CE93520FE /* libPods-CrayWebViewControllerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,22 +181,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		659B24B09DEB858C04E0BAC1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				336DEAE5C45664759EDE2E8C /* Pods-CrayWebViewController.release.xcconfig */,
-				6980C53A3B03CA540C481779 /* Pods-CrayWebViewController.debug.xcconfig */,
-				270FBBFEA883218C97DE9670 /* Pods-CrayWebViewControllerTests.release.xcconfig */,
-				ECAF448195FFD9DBEB76D026 /* Pods-CrayWebViewControllerTests.debug.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		73FED3B319405CF100C048F7 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = iPad;
+			sourceTree = "<group>";
+		};
+		A1FDC465B189F031C9138388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A2FDDC939608B584028A72D /* Pods-CrayWebViewController.release.xcconfig */,
+				B6E16CF93C4B5F4668F75030 /* Pods-CrayWebViewController.debug.xcconfig */,
+				2D2301F3A6A42117DA4574A2 /* Pods-CrayWebViewControllerTests.release.xcconfig */,
+				259DC53D9E7936BA6CB50068 /* Pods-CrayWebViewControllerTests.debug.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B5C45140B38FA8AAC26D7E /* Build configuration list for PBXNativeTarget "CrayWebViewController" */;
 			buildPhases = (
-				94738BBAF4B7468D9E9DCCF9 /* Check Pods Manifest.lock */,
+				E710988698D034DABEA91538 /* [CP] Check Pods Manifest.lock */,
 				17B5CC75FBDA3C3CE0175E4D /* Sources */,
 				17B5CA9EF437644FF6586BF8 /* Frameworks */,
 				17B5C154AE3D2D9F03507C51 /* Resources */,
-				2A0ADFE39585455395B4AFC5 /* Copy Pods Resources */,
+				C09C861736D9E70D3002C240 /* [CP] Embed Pods Frameworks */,
+				419FF41EE796FA405505DB6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,11 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B5C86616866BC4AC352A40 /* Build configuration list for PBXNativeTarget "CrayWebViewControllerTests" */;
 			buildPhases = (
-				0382E354C6A6FC57186C5B2D /* Check Pods Manifest.lock */,
+				80EA2CB47A523982D7B069ED /* [CP] Check Pods Manifest.lock */,
 				17B5C066A9F4B9B91E876EB7 /* Sources */,
 				17B5C6B02F9ADB4A27242F6C /* Frameworks */,
 				17B5C161076A8E3ABF3207FB /* Resources */,
-				D04AB6CFB86B3E7D46CF068E /* Copy Pods Resources */,
+				109D0B5B658E85FED4DF6A07 /* [CP] Embed Pods Frameworks */,
+				ECF1EB00F2CAF7939CF1C519 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,60 +291,110 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0382E354C6A6FC57186C5B2D /* Check Pods Manifest.lock */ = {
+		109D0B5B658E85FED4DF6A07 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrayWebViewControllerTests/Pods-CrayWebViewControllerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2A0ADFE39585455395B4AFC5 /* Copy Pods Resources */ = {
+		419FF41EE796FA405505DB6F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController-resources.sh",
+				"${PODS_ROOT}/../Lib/CrayAllInOneBackWebViewController/CrayAllInOneBackWebViewController.storyboard",
+				"${PODS_ROOT}/../Lib/CrayBundleSupport/CrayWebViewControlleryLocalized.bundle",
+				"${PODS_ROOT}/../Lib/CrayModalWebViewController/CrayModalWebViewController.storyboard",
+				"${PODS_ROOT}/../Lib/CrayStandaloneWebViewController/CrayStandaloneWebViewController.storyboard",
+				"$PODS_CONFIGURATION_BUILD_DIR/TUSafariActivity/TUSafariActivity.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		94738BBAF4B7468D9E9DCCF9 /* Check Pods Manifest.lock */ = {
+		80EA2CB47A523982D7B069ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrayWebViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09C861736D9E70D3002C240 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrayWebViewController/Pods-CrayWebViewController-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D04AB6CFB86B3E7D46CF068E /* Copy Pods Resources */ = {
+		E710988698D034DABEA91538 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrayWebViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF1EB00F2CAF7939CF1C519 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrayWebViewControllerTests/Pods-CrayWebViewControllerTests-resources.sh",
+				"${PODS_ROOT}/../Lib/CrayAllInOneBackWebViewController/CrayAllInOneBackWebViewController.storyboard",
+				"${PODS_ROOT}/../Lib/CrayBundleSupport/CrayWebViewControlleryLocalized.bundle",
+				"${PODS_ROOT}/../Lib/CrayModalWebViewController/CrayModalWebViewController.storyboard",
+				"${PODS_ROOT}/../Lib/CrayStandaloneWebViewController/CrayStandaloneWebViewController.storyboard",
+				"$PODS_CONFIGURATION_BUILD_DIR/TUSafariActivity/TUSafariActivity.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -416,7 +468,7 @@
 /* Begin XCBuildConfiguration section */
 		17B5C0FF30CD9FEAD3803583 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 270FBBFEA883218C97DE9670 /* Pods-CrayWebViewControllerTests.release.xcconfig */;
+			baseConfigurationReference = 2D2301F3A6A42117DA4574A2 /* Pods-CrayWebViewControllerTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -464,7 +516,7 @@
 		};
 		17B5C705F80CFCC1C70A31E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 336DEAE5C45664759EDE2E8C /* Pods-CrayWebViewController.release.xcconfig */;
+			baseConfigurationReference = 4A2FDDC939608B584028A72D /* Pods-CrayWebViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -519,7 +571,7 @@
 		};
 		17B5CE988BBEE98D3D440D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6980C53A3B03CA540C481779 /* Pods-CrayWebViewController.debug.xcconfig */;
+			baseConfigurationReference = B6E16CF93C4B5F4668F75030 /* Pods-CrayWebViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -536,7 +588,7 @@
 		};
 		17B5CF49C2ECABE7D0BA6112 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECAF448195FFD9DBEB76D026 /* Pods-CrayWebViewControllerTests.debug.xcconfig */;
+			baseConfigurationReference = 259DC53D9E7936BA6CB50068 /* Pods-CrayWebViewControllerTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

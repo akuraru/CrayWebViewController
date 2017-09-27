@@ -1,22 +1,22 @@
 PODS:
-  - CrayWebViewController (0.7.5):
-    - CrayWebViewController/Core (= 0.7.5)
-    - CrayWebViewController/CrayAllInOneBackWebViewController (= 0.7.5)
-    - CrayWebViewController/CrayBundleSupport (= 0.7.5)
-    - CrayWebViewController/CrayModalWebViewController (= 0.7.5)
-    - CrayWebViewController/CrayNavigationController (= 0.7.5)
-    - CrayWebViewController/CrayStandaloneWebViewController (= 0.7.5)
-  - CrayWebViewController/Core (0.7.5):
+  - CrayWebViewController (0.7.7):
+    - CrayWebViewController/Core (= 0.7.7)
+    - CrayWebViewController/CrayAllInOneBackWebViewController (= 0.7.7)
+    - CrayWebViewController/CrayBundleSupport (= 0.7.7)
+    - CrayWebViewController/CrayModalWebViewController (= 0.7.7)
+    - CrayWebViewController/CrayNavigationController (= 0.7.7)
+    - CrayWebViewController/CrayStandaloneWebViewController (= 0.7.7)
+  - CrayWebViewController/Core (0.7.7):
     - NJKWebViewProgress
-  - CrayWebViewController/CrayAllInOneBackWebViewController (0.7.5):
-    - CrayWebViewController/CrayStandaloneWebViewController
-  - CrayWebViewController/CrayBundleSupport (0.7.5)
-  - CrayWebViewController/CrayModalWebViewController (0.7.5):
-    - CrayWebViewController/CrayAllInOneBackWebViewController
+  - CrayWebViewController/CrayAllInOneBackWebViewController (0.7.7):
     - CrayWebViewController/CrayBundleSupport
+    - CrayWebViewController/CrayStandaloneWebViewController
+  - CrayWebViewController/CrayBundleSupport (0.7.7)
+  - CrayWebViewController/CrayModalWebViewController (0.7.7):
+    - CrayWebViewController/CrayAllInOneBackWebViewController
     - CrayWebViewController/CrayNavigationController
-  - CrayWebViewController/CrayNavigationController (0.7.5)
-  - CrayWebViewController/CrayStandaloneWebViewController (0.7.5):
+  - CrayWebViewController/CrayNavigationController (0.7.7)
+  - CrayWebViewController/CrayStandaloneWebViewController (0.7.7):
     - CrayWebViewController/Core
     - TUSafariActivity
   - Kiwi (2.4.0)
@@ -33,12 +33,14 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   CrayWebViewController:
-    :path: "./"
+    :path: ./
 
 SPEC CHECKSUMS:
-  CrayWebViewController: afd180f9afd77b589e1b738f97087cb4f60cbd14
+  CrayWebViewController: 044be1e64e883ac3fbbfe78d880c3ef6ef2c238f
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 005b431e00ea44524e7efdba1475f983275fd7ba
+
+COCOAPODS: 1.3.1
